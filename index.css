@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+ header{
+    background-image: url(images/car.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+body{
+    font-family: "Righteous", serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+nav ul li a{
+    text-decoration: none; 
+    color: white;
+}
+#logo{
+    font-size: 40px;
+}
+.special{
+    text-decoration: none;
+    color:white ;
+    background-color: #00c2ff ;
+    padding: 11px;
+    border-radius: 15px;
+}
+.Data{
+    position: relative;
+    left: 450px;
+    top: 200px;
+}
+.Data h1{
+    font-size: 38px;
+    margin-bottom: 30px;
+
+}
+.Data p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: #565a82;
+    padding: 10px;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 20px;
+}
+footer ul b{
+    color: #00c2ff;
+}
+footer ul p{
+    color: white;
+}
